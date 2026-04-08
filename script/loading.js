@@ -4,7 +4,7 @@ document.querySelector(".start").onclick = function () {
     }, 15000);
     setTimeout(function () {
         document.querySelector(".next a").style = "display:block";
-    }, 200);
+    }, 500);
     document.querySelector(".start").remove();
     document.querySelector(".song").play();
 
