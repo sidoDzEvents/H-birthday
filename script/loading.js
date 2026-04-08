@@ -1,10 +1,10 @@
 document.querySelector(".start").onclick = function () {
     setTimeout(function () {
         window.location.href = "main.html";
-    }, 15000);
+    }, 85000);
     setTimeout(function () {
         document.querySelector(".next a").style = "display:block";
-    }, 500);
+    }, 15000);
     document.querySelector(".start").remove();
     document.querySelector(".song").play();
 
